@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="static/node_modules/countdowntimer/src/js/jQuery.countdownTimer.js"></script>
+    <!-- Good alternative is to include minified file jQuery.countdownTimer.min.js -->
+    <link rel="stylesheet" type="text/css" href="static/node_modules/countdowntimer/src/css/jQuery.countdownTimer.css" />
+    <!-- For regional language support, include below file -->
+    <!--<script type="text/javascript" src="js/localisation/jQuery.countdownTimer-[region-code].js"></script>-->
+
+</head>
+<body>
+<div id="countdowntimer"><span id="future_date"></span></div>
+<script type="text/javascript">
+	  $(function(){
+	    $("#future_date").countdowntimer({
+	      dateAndTime : "2020/01/01 00:00:00",
+	      size : "lg"
+	    });
+	  });
+</script>
+</body>
+</html>
