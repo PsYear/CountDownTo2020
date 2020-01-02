@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>2021</title>
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="static/node_modules/countdowntimer/src/js/jQuery.countdownTimer.js"></script>
     <!-- Good alternative is to include minified file jQuery.countdownTimer.min.js -->
     <link rel="stylesheet" type="text/css" href="static/node_modules/countdowntimer/src/css/jQuery.countdownTimer.css" />
@@ -23,7 +23,7 @@
           $(function(){
             $("#future_date").countdowntimer({
                 {#dateAndTime : "2020/01/01 00:00:00",#}
-                dateAndTime : "2020/01/01 00:00:00",
+                dateAndTime : "2021/01/01 00:00:00",
                 displayFormat : "YODHMS",
                 labelsFormat : true,
                 timeZone : +8,
@@ -37,8 +37,8 @@
     <script>
         var string_list = [];
         for (i = 0; i < 10000; i++) {
-            string_list.push('2019 is leaving..');
-            string_list.push('2020 is coming..');
+            string_list.push('2020 is leaving..');
+            string_list.push('2021 is coming..');
         }
         var options = {
             strings: string_list,
